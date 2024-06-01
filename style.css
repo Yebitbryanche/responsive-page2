@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-image: linear-gradient(to right,rgb(232, 234, 108) 1px, rgb(235, 235,235));
+    padding-bottom: 70px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.3);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    border-bottom: 1px solid black;
+    height: 100px;
+}
+.header1{
+    margin-top: 10px;
+   display: flex;
+   justify-content: space-between;
+}
+.header2{
+    margin-top: 10px;
+}
+
+.header1 h1{
+    padding: 10px;
+}
+
+.header1 h5{
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+/*Admin bar*/
+.container1{
+    border: 2px solid #ffffff;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: rgb(222, 222, 222);
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.3);
+}
+table{
+    border-collapse: collapse;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+table tr td{
+    border:none;
+    padding: 9px;
+    text-align: center;
+    
+}
+.border{
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 0;
+}
+#td2{
+    background-color: #ffffff;
+}
+
+#td1{
+    background-color: #ffe600;
+}
+
+/*The form part*/
+
+.form{
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.3);
+}
+
+.form h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.inputs{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.sub{
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.sub input, select{
+    border: 1px solid black;
+    width: 95%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: transparent;
+}
+.sub img{
+    position: relative;
+    float: inline-start;
+    margin-top:0px ;
+}
+
+button{
+    width: 100px;
+    height: 25px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color: #ffe600;
+    background-color: #0b0a0a;
+    border: none; border-radius: 2px;
+    color: yellow;
+}
+
+.background{
+backdrop-filter: blur;
+background-color: transparent;
+
+}
+
+@media(max-width: 750px) {
+    .container{
+        width: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .form, .inputs, .sub{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:left;
+    }
+
+   
+
+}
